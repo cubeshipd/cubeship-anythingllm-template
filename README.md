@@ -131,3 +131,15 @@ least; the embedding model, local speech-to-text and Chromium all run inside
 this container, so large documents, many at once, or a bigger embedding model
 need more — raise `limits` in `template.yaml`. The chat models run in Ollama or
 behind the API you connect, not here.
+
+---
+
+<!-- cubeship-crosslink -->
+
+## About Cubeship
+
+This is a template for [**Cubeship**](https://github.com/cubeshipd/cubeship) —
+a PaaS you run on your own server: `docker push`, and it is live, with HTTPS,
+a database beside it, and a second machine when one stops being enough.
+
+Browse every template at [cubeship.dev/templates](https://cubeship.dev/templates).
